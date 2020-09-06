@@ -1,0 +1,40 @@
+/* Search & Filter Styles */
+body
+{
+	display:block;
+}
+.Atozsites p
+{
+	margin-top: 1em;
+	display:inline-block;
+}
+.Atozsites ul
+{
+	display:inline-block;
+}
+.Atozsites li
+{
+	list-style: none;
+	display:inline-block;
+	padding-right:10px;
+}
+
+/* If in a widget area make a single column by adding display block  */
+.widget-area .Atozsites li, .widget-area .Atozsites p
+{
+	display:block;
+}
+.Atozsites label
+{
+	display:block;
+}
+.Atozsites h4
+{
+	margin:15px 0;
+	font-size:16px;
+}
+
+.Atozsites ul > li > ul:not(.children)
+{
+	margin-left:0;
+}
